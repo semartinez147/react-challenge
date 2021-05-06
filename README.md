@@ -13,7 +13,7 @@
  **Code taken from the official Bootstrap documentation, React Bootstrap documentation, FontAwesome documentation, and Example Capstone repository is excepted.**
 ## Getting started
 1. Clone down the repo from Github
-2. cd in `/app` and run `npm install`
+2. cd in `/frontend` and run `npm install`
 3. run `npm run start`
 4. go to localhost:3000 in the browser to see the React application
 
