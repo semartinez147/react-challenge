@@ -1,11 +1,5 @@
 import React from "react"
-import Jumbotron from 'react-bootstrap/Jumbotron'
-import Button from 'react-bootstrap/Button'
-import Container from "react-bootstrap/Container";
-import Navbar from "react-bootstrap/Navbar";
-import Image from "react-bootstrap/Image";
-import Nav from "react-bootstrap/Nav";
-import {Card, CardDeck, Col, Row} from "react-bootstrap";
+import {Button, Card, CardDeck, Container, Col, Image, Jumbotron, Nav, Navbar, Row} from "react-bootstrap";
 import murray from "../murray.jpg";
 import card1 from "../card1.jpg";
 import card2 from "../card2.jpg";
