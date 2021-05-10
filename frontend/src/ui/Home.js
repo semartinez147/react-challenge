@@ -11,7 +11,7 @@ export function Home() {
     return (
         <>
             <Navbar className="mb-2" bg="light" variant="light">
-                <Navbar.Brand href="#home">Title</Navbar.Brand>
+                <Navbar.Brand href="#">Title</Navbar.Brand>
                 <Navbar.Toggle/>
                 <Navbar.Collapse className="justify-content-end">
                     <Nav>
@@ -61,7 +61,7 @@ export function Home() {
                     <Row>
                         <Col sm={6} lg={3}>
                             <Card border="light" className="mx-4">
-                                <Card.Img variant="top" src={card1} roundedCircle/>
+                                <Card.Img variant="top" src={card1} roundedCircle={true}/>
                                 <Card.Body>
                                     <Card.Text>
                                         Beyond the spaceport gates, the men of the Kharsa were hunting down a thief. I
