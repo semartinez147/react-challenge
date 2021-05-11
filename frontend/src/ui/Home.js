@@ -1,6 +1,6 @@
 import React from "react"
 import {Button, Card, CardDeck, Container, Col, Image, Jumbotron, Nav, Navbar, Row} from "react-bootstrap";
-import murray from "../murray.jpg";
+import pong from "../pong.jpg";
 import card1 from "../card1.jpg";
 import card2 from "../card2.jpg";
 import card3 from "../card3.jpg";
@@ -10,7 +10,7 @@ import squiggle from "../squiggle.png";
 export function Home() {
     return (
         <>
-            <Navbar className="mb-2" bg="light" variant="light">
+            <Navbar className="mb-2" expand="lg" bg="light" variant="light">
                 <Navbar.Brand href="#">Title</Navbar.Brand>
                 <Navbar.Toggle/>
                 <Navbar.Collapse className="justify-content-end">
@@ -19,6 +19,7 @@ export function Home() {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
+
             <Container className="my-4">
                 <Jumbotron>
                     <h1>Hello, world!</h1>
@@ -32,10 +33,11 @@ export function Home() {
                     </p>
                 </Jumbotron>
             </Container>
+
             <Container fluid className="bg-secondary py-4 my-2">
                 <Row className="align-content-center justify-content-between">
                     <Col md={4} lg={3} className="mx-3 my-md-auto text-center">
-                        <Image src={murray}/>
+                        <Image src={pong} rounded={true}/>
                     </Col>
                     <Col md={7} lg={8} className="mx-3 mt-3 align-self-center">
                         <p>It was a soft, reposeful summer landscape, as lovely as a dream, and as lonesome as Sunday.
@@ -61,7 +63,7 @@ export function Home() {
                     <Row>
                         <Col sm={6} lg={3}>
                             <Card border="light" className="mx-4">
-                                <Card.Img variant="top" src={card1} roundedCircle={true}/>
+                                <Card.Img as={Image} variant="top" src={card1} roundedCircle={true}/>
                                 <Card.Body>
                                     <Card.Text>
                                         Beyond the spaceport gates, the men of the Kharsa were hunting down a thief. I
@@ -77,7 +79,7 @@ export function Home() {
                             </Card></Col>
                         <Col sm={6} lg={3}>
                             <Card border="light" className="mx-4">
-                                <Card.Img variant="top" src={card2}/>
+                                <Card.Img variant="top" src={card2} as={Image} roundedCircle={true}/>
                                 <Card.Body>
                                     <Card.Text>
                                         But the square itself lay empty in the crimson noon of Wolf. Overhead the dim
@@ -96,7 +98,7 @@ export function Home() {
                             </Card></Col>
                         <Col sm={6} lg={3}>
                             <Card border="light" className="mx-4">
-                                <Card.Img variant="top" src={card3}/>
+                                <Card.Img variant="top" src={card3} as={Image} roundedCircle={true}/>
                                 <Card.Body>
                                     <Card.Text>
                                         One of them, a snub-nosed youngster only a few weeks out from Earth, cocked an
@@ -109,7 +111,7 @@ export function Home() {
                         </Col>
                         <Col sm={6} lg={3}>
                             <Card border="light" className="mx-4">
-                                <Card.Img variant="top" src={card4}/>
+                                <Card.Img variant="top" src={card4} as={Image} roundedCircle={true}/>
                                 <Card.Body>
                                     <Card.Text>
                                         I stepped out past the gateway to listen. There was still no one to be seen in
