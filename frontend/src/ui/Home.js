@@ -8,7 +8,7 @@ export function Home() {
     return (
         <>
             <Navbar className="mb-2" expand="lg" bg="light" variant="light">
-                <Navbar.Brand href="#">Title</Navbar.Brand>
+                <Navbar.Brand>React Layout</Navbar.Brand>
                 <Navbar.Toggle/>
                 <Navbar.Collapse className="justify-content-end">
                     <Nav>
@@ -26,7 +26,7 @@ export function Home() {
                         bad habits have been formed, it then becomes an entirely different matter.
                     </p>
                     <p>
-                        <Button variant="primary">Go Big</Button>
+                        <Button variant="primary">I don't do anything</Button>
                     </p>
                 </Jumbotron>
             </Container>
