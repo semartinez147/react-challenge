@@ -10,7 +10,7 @@ export function App() {
 		<>
 			<HashRouter >
 				<Switch>
-					<Route exact path='/react-challenge' component={Home} />
+					<Route exact path='/#/' component={Home} />
 					<Route exact path='/about' component={About} />
 				</Switch>
 			</HashRouter>
