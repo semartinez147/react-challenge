@@ -12,7 +12,7 @@ export function Home() {
                 <Navbar.Toggle/>
                 <Navbar.Collapse className="justify-content-end">
                     <Nav>
-                        <Nav.Link href="/react-challenge/about">About Us</Nav.Link>
+                        <Nav.Link href="/react-challenge/#about">About Us</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
@@ -26,7 +26,7 @@ export function Home() {
                         bad habits have been formed, it then becomes an entirely different matter.
                     </p>
                     <p>
-                        <Button variant="primary">I don't do anything</Button>
+                        <Button variant="primary">Hash it out.</Button>
                     </p>
                 </Jumbotron>
             </Container>
