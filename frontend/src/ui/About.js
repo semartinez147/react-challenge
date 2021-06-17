@@ -13,7 +13,7 @@ export function About() {
                 <Navbar.Toggle/>
                 <Navbar.Collapse className="justify-content-end">
                     <Nav>
-                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="/react-challenge">Home</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
