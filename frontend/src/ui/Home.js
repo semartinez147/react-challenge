@@ -12,7 +12,7 @@ export function Home() {
                 <Navbar.Toggle/>
                 <Navbar.Collapse className="justify-content-end">
                     <Nav>
-                        <Nav.Link href="/about">About Us</Nav.Link>
+                        <Nav.Link href="/about">Aboot Us</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
